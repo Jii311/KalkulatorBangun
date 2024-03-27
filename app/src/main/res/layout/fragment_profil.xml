@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".FragmentProfil">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/image_profil"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="156dp"
+            android:background="@color/white"
+            android:src="@drawable/baseline_person_24"
+            android:layout_centerHorizontal="true"
+            app:tint="@color/black" />
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:text="Bambang"
+            android:textColor="@color/white"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/image_profil"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/gmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="bambangpamungkas@gmail.com"
+            android:textColor="@color/white"
+            android:layout_below="@+id/username"
+            android:layout_centerHorizontal="true"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gmail"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:backgroundTint="#3d3d3d"
+                android:text="Edit Profil"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                app:rippleColor="#80FFFFFF" />
+
+            <Button
+                android:id="@+id/logout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_toRightOf="@id/edit"
+                android:backgroundTint="#3d3d3d"
+                android:paddingStart="35dp"
+                android:paddingEnd="35dp"
+                android:text="Logout"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                app:rippleColor="#80FFFFFF" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>
