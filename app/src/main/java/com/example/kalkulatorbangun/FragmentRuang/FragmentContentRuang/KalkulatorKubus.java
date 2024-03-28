@@ -37,7 +37,7 @@ public class KalkulatorKubus extends AppCompatActivity {
     public void rumus(){
         String inputUser = inputUserET.getText().toString();
         if(inputUser.isEmpty()){
-            Toast.makeText(this, "Masukkan panjang input terlebih dahulu", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Masukkan input terlebih dahulu", Toast.LENGTH_SHORT).show();
         }
         else {
             double sisi = Double.parseDouble(inputUser);

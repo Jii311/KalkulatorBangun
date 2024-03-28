@@ -39,7 +39,7 @@ public class KalkulatorKerucut extends AppCompatActivity {
         String inputUser1 = inputUserET1.getText().toString();
         String inputUser2 = inputUserET2.getText().toString();
         if(inputUser1.isEmpty() && inputUser2.isEmpty()){
-            Toast.makeText(this, "Masukkan panjang input terlebih dahulu", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Masukkan input terlebih dahulu", Toast.LENGTH_SHORT).show();
         }
         else {
             double phi = 3.14;
