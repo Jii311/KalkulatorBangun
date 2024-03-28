@@ -37,7 +37,7 @@
             android:name=".FragmentDatar.FragmentContentDatar.KalkulatorPersegi"
             android:exported="false" />
         <activity
-            android:name=".FragmentDatar.FragmentContentDatar.Kotak"
+            android:name=".FragmentDatar.FragmentContentDatar.KalkulatorLingkaran"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
