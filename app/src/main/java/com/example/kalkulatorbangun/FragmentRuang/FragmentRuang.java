@@ -14,10 +14,6 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.kalkulatorbangun.AdapterBangun;
-import com.example.kalkulatorbangun.FragmentDatar.FragmentContentDatar.KalkulatorLingkaran;
-import com.example.kalkulatorbangun.FragmentDatar.FragmentContentDatar.KalkulatorPersegi;
-import com.example.kalkulatorbangun.FragmentDatar.FragmentContentDatar.KalkulatorPersegiPanjang;
-import com.example.kalkulatorbangun.FragmentDatar.FragmentContentDatar.KalkulatorSegitiga;
 import com.example.kalkulatorbangun.FragmentRuang.FragmentContentRuang.KalkulatorBola;
 import com.example.kalkulatorbangun.FragmentRuang.FragmentContentRuang.KalkulatorKerucut;
 import com.example.kalkulatorbangun.FragmentRuang.FragmentContentRuang.KalkulatorKubus;
